@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ed33ab0-1333-417d-90cd-4d63a5fbf1a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/WelcomeController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$USER_HOME$/Desktop/eatgo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eatgo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/eatgo">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eatgo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bdxWoOf3yPdIscmmb5pJ9BIv44" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eatgo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo\eatgo-api" />
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.EatgoApplicationTests">
+    <configuration name="EatgoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../Program Files/Java/jdk-13.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.EatgoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.co.fastcampus.eatgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EatgoApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eatgo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.EatgoApplicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":eatgo-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EatgoApplicationTests" />
+        <item itemvalue="Application.EatgoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ed33ab0-1333-417d-90cd-4d63a5fbf1a7" name="Default Changelist" comment="" />
+      <created>1588975805656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588975805656</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="28" key="#EatgoApplication" timestamp="1588980875894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="458" y="28" key="#EatgoApplication/0.0.1536.824@0.0.1536.824" timestamp="1588980875894" />
+    <state x="654" y="274" width="493" height="386" key="#Notifications" timestamp="1588976240974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="274" width="493" height="386" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1588976240974" />
+    <state x="258" y="0" key="#Project_Structure" timestamp="1588978345429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="258" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588978345429" />
+    <state x="479" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588979579913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588979579913" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588979030301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588979030301" />
+    <state width="1342" height="164" key="GridCell.Tab.0.bottom" timestamp="1588980939980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588980939980" />
+    <state width="1342" height="164" key="GridCell.Tab.0.center" timestamp="1588980939979">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588980939979" />
+    <state width="1342" height="164" key="GridCell.Tab.0.left" timestamp="1588980939979">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588980939979" />
+    <state width="1342" height="164" key="GridCell.Tab.0.right" timestamp="1588980939980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588980939980" />
+    <state x="554" y="228" key="NewModule_or_Project.wizard" timestamp="1588979032051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="554" y="228" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1588979032051" />
+    <state x="274" y="29" key="new project wizard" timestamp="1588979022240">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="274" y="29" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588979022240" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1588978870911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588978870911" />
+  </component>
+</project>

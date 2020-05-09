@@ -10,9 +10,5 @@
         <module name="eatgo.eatgo-api.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="fastcampus_all-in-one_java_web.eatgo.main" target="1.8" />
-      <module name="fastcampus_all-in-one_java_web.eatgo.test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

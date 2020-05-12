@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed33ab0-1333-417d-90cd-4d63a5fbf1a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantRepositoryImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/domain/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/domain/RestaurantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +70,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -99,6 +98,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/eatgo" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -111,16 +111,12 @@
       <recent name="kr.co.fastcampus.eatgo.domain" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kr.co.fastcampus.eatgo.application" />
       <recent name="kr.co.fastcampus.eatgo.interfaces" />
       <recent name="kr.co.fastcampus.eatgo.domain" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo\eatgo-api" />
-      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
-      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kr.co.fastcampus.eatgo.domain" />
@@ -128,21 +124,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo\eatgo-api" />
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.EatgoApplication">
-    <configuration name="EatgoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.EatgoApplication" />
-      <module name="eatgo.eatgo-api.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.co.fastcampus.eatgo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RestaurantControllerTest">
     <configuration name="RestaurantControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eatgo.eatgo-api.test" />
       <extension name="coverage">
@@ -174,33 +162,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantControllerTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eatgo.eatgo-api.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kr.co.fastcampus.eatgo.interfaces.*" />
+          <option name="PATTERN" value="kr.co.fastcampus.eatgo.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kr.co.fastcampus.eatgo.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest" />
-      <option name="METHOD_NAME" value="list" />
+      <option name="PACKAGE_NAME" value="kr.co.fastcampus.eatgo.application" />
+      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.application.RestaurantServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantServiceTest.getRestaurant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eatgo.eatgo-api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.co.fastcampus.eatgo.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kr.co.fastcampus.eatgo.application" />
+      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.application.RestaurantServiceTest" />
+      <option name="METHOD_NAME" value="getRestaurant" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest.creation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantServiceTest.getRestaurants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eatgo.eatgo-api.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kr.co.fastcampus.eatgo.domain.*" />
+          <option name="PATTERN" value="kr.co.fastcampus.eatgo.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kr.co.fastcampus.eatgo.domain" />
-      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.domain.RestaurantTest" />
-      <option name="METHOD_NAME" value="creation" />
+      <option name="PACKAGE_NAME" value="kr.co.fastcampus.eatgo.application" />
+      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.application.RestaurantServiceTest" />
+      <option name="METHOD_NAME" value="getRestaurants" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EatgoApplication" />
         <item itemvalue="JUnit.RestaurantControllerTest" />
+        <item itemvalue="JUnit.RestaurantServiceTest.getRestaurant" />
+        <item itemvalue="JUnit.RestaurantServiceTest" />
+        <item itemvalue="JUnit.RestaurantServiceTest.getRestaurants" />
         <item itemvalue="JUnit.RestaurantControllerTest.detail" />
-        <item itemvalue="JUnit.RestaurantControllerTest.list" />
-        <item itemvalue="JUnit.RestaurantTest.creation" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +269,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588983022252" />
+    <state x="0" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1589285054499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589285054499" />
     <state x="479" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588979579913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,22 +285,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588979030301" />
-    <state width="1342" height="166" key="GridCell.Tab.0.bottom" timestamp="1589197171468">
+    <state width="1342" height="183" key="GridCell.Tab.0.bottom" timestamp="1589287831007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589197171468" />
-    <state width="1342" height="166" key="GridCell.Tab.0.center" timestamp="1589197171468">
+    <state width="1342" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589287831007" />
+    <state width="1342" height="183" key="GridCell.Tab.0.center" timestamp="1589287831007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589197171468" />
-    <state width="1342" height="166" key="GridCell.Tab.0.left" timestamp="1589197171468">
+    <state width="1342" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589287831007" />
+    <state width="1342" height="183" key="GridCell.Tab.0.left" timestamp="1589287831007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589197171468" />
-    <state width="1342" height="166" key="GridCell.Tab.0.right" timestamp="1589197171468">
+    <state width="1342" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589287831007" />
+    <state width="1342" height="183" key="GridCell.Tab.0.right" timestamp="1589287831007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589197171468" />
+    <state width="1342" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589287831007" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1589000884428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -322,10 +329,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="45" y="537" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1588984082667" />
-    <state x="194" y="350" width="471" height="358" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589193010714">
+    <state x="194" y="350" width="480" height="358" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589285507406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="194" y="350" width="471" height="358" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1589193010714" />
+    <state x="194" y="350" width="480" height="358" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1589285507406" />
+    <state x="137" y="322" key="extract.method.dialog" timestamp="1589287013436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="137" y="322" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1589287013436" />
     <state x="274" y="29" key="new project wizard" timestamp="1588979022240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

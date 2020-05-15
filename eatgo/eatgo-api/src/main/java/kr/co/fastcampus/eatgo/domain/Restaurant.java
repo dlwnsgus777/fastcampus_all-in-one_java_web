@@ -2,15 +2,21 @@ package kr.co.fastcampus.eatgo.domain;
 
 import org.springframework.core.convert.support.GenericConversionService;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class Restaurant {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 
     private String name;
+
     private String address;
-    private Long id;
+
+    @Transient
     private List<MenuItem> menuItems = new ArrayList<MenuItem>();
 
     public Restaurant() {

@@ -20,19 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed33ab0-1333-417d-90cd-4d63a5fbf1a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-web/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantRepositoryImpl2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/domain/RestaurantRepositoryImplTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +74,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,6 +90,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -109,7 +103,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eatgo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eatgo/eatgo-web" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -127,16 +121,17 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo\eatgo-api" />
-      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
-      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kr.co.fastcampus.eatgo.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo\eatgo-web" />
       <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo\eatgo-api" />
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web" />
+      <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.EatgoApplication">
@@ -292,22 +287,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588979030301" />
-    <state width="1342" height="190" key="GridCell.Tab.0.bottom" timestamp="1589547640245">
+    <state width="1342" height="189" key="GridCell.Tab.0.bottom" timestamp="1589624631746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589547640245" />
-    <state width="1342" height="190" key="GridCell.Tab.0.center" timestamp="1589547640245">
+    <state width="1342" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589624631746" />
+    <state width="1342" height="189" key="GridCell.Tab.0.center" timestamp="1589624631746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589547640245" />
-    <state width="1342" height="190" key="GridCell.Tab.0.left" timestamp="1589547640245">
+    <state width="1342" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589624631746" />
+    <state width="1342" height="189" key="GridCell.Tab.0.left" timestamp="1589624631745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589547640245" />
-    <state width="1342" height="190" key="GridCell.Tab.0.right" timestamp="1589547640245">
+    <state width="1342" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589624631745" />
+    <state width="1342" height="189" key="GridCell.Tab.0.right" timestamp="1589624631746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589547640245" />
+    <state width="1342" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589624631746" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1589000884428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

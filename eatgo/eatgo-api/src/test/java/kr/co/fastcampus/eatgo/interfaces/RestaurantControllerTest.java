@@ -13,14 +13,14 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @ExtendWith(SpringExtension.class)
@@ -36,7 +36,13 @@ class RestaurantControllerTest {
     @Test
     public void list() throws Exception {
         List<Restaurant> restaurants = new ArrayList<>();
-        restaurants.add(new Restaurant(1004L, "JOKER House", "Seoul"));
+        Restaurant restaurant = Restaurant.builder()
+                .id(1004L)
+                .name("JOKER House")
+                .address("Seoul")
+                .menuItems(new ArrayList<MenuItem>())
+                .build();
+        restaurants.add(restaurant);
 
         given(restaurantService.getRestaurants()).willReturn(restaurants);
 
@@ -50,7 +56,8 @@ class RestaurantControllerTest {
     @Test
     public void detail() throws Exception {
         Restaurant restaurant1 = new Restaurant(1004L, "Bob zip", "Seoul");
-        restaurant1.addMenuItem(new MenuItem("Kimchi"));
+        MenuItem menuItem = MenuItem.builder().name("Kimchi").build();
+        restaurant1.setMenuItem(Arrays.asList(menuItem));
         given(restaurantService.getRestaurant(1004L)).willReturn(restaurant1);
 
         mvc.perform(get("/restaurants/1004"))
@@ -70,6 +77,12 @@ class RestaurantControllerTest {
 
     @Test
     public void create() throws Exception {
+        given(restaurantService.addRestaurant(any())).will(invocation -> {
+            Restaurant restaurant = invocation.getArgument(0);
+            restaurant.setId(1234L);
+            return  restaurant;
+        });
+
         mvc.perform(post("/restaurants")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"name\":\"BeRyong\",\"address\":\"Busan\"}"))
@@ -78,5 +91,16 @@ class RestaurantControllerTest {
                 .andExpect(content().string("{}"));
 
         verify(restaurantService).addRestaurant(any());
+    }
+
+    @Test
+    public void update() throws Exception {
+        //1004L, "Bob zip", "Seoul"
+        mvc.perform(patch("/restaurants/1004")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"JOKER bar\",\"address\":\"Busan\"}"))
+                .andExpect(status().isOk());
+
+        verify(restaurantService).updateRestaurant(1004L, "JOKER bar", "Busan");
     }
 }

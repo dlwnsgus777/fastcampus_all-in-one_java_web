@@ -4,6 +4,7 @@ import lombok.*;
 import org.springframework.core.convert.support.GenericConversionService;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,8 +20,10 @@ public class Restaurant {
     private Long id;
 
     @Setter
+    @NotEmpty
     private String name;
 
+    @NotEmpty
     private String address;
 
     @Transient

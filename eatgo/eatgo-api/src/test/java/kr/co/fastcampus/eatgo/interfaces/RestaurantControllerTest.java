@@ -54,7 +54,7 @@ class RestaurantControllerTest {
     }
 
     @Test
-    public void detail() throws Exception {
+    public void detailWithExisted() throws Exception {
         Restaurant restaurant1 = new Restaurant(1004L, "Bob zip", "Seoul");
         MenuItem menuItem = MenuItem.builder().name("Kimchi").build();
         restaurant1.setMenuItem(Arrays.asList(menuItem));
@@ -76,7 +76,15 @@ class RestaurantControllerTest {
     }
 
     @Test
-    public void create() throws Exception {
+    public void detailWithNotExisted() throws Exception {
+        given(restaurantService.getRestaurant(404L)).willThrow(new RestaurantNotFoundException(404L));
+        mvc.perform(get("/restaurants/404"))
+                .andExpect(status().isNotFound())
+                .andExpect(content().string("{}"));
+    }
+
+    @Test
+    public void createWithValidData() throws Exception {
         given(restaurantService.addRestaurant(any())).will(invocation -> {
             Restaurant restaurant = invocation.getArgument(0);
             restaurant.setId(1234L);
@@ -94,7 +102,16 @@ class RestaurantControllerTest {
     }
 
     @Test
-    public void update() throws Exception {
+    public void createWithInvalidData() throws Exception {
+        mvc.perform(post("/restaurants")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"\",\"address\":\"\"}"))
+                .andExpect(status().isBadRequest());
+
+    }
+
+    @Test
+    public void updateWithValidData() throws Exception {
         //1004L, "Bob zip", "Seoul"
         mvc.perform(patch("/restaurants/1004")
                 .contentType(MediaType.APPLICATION_JSON)
@@ -102,5 +119,14 @@ class RestaurantControllerTest {
                 .andExpect(status().isOk());
 
         verify(restaurantService).updateRestaurant(1004L, "JOKER bar", "Busan");
+    }
+
+    @Test
+    public void updateWithInvalidData() throws Exception {
+        //1004L, "Bob zip", "Seoul"
+        mvc.perform(patch("/restaurants/1004")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"\",\"address\":\"\"}"))
+                .andExpect(status().isBadRequest());
     }
 }

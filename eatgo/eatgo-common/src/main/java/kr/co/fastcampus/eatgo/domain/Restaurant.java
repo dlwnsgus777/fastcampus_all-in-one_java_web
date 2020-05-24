@@ -29,7 +29,7 @@ public class Restaurant {
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private List<MenuItem> menuItems = new ArrayList<MenuItem>();
+    private List<MenuItem> menuItems;
 
     @Transient
     @JsonInclude(JsonInclude.Include.NON_NULL)

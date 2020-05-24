@@ -2,6 +2,7 @@ package kr.co.fastcampus.eatgo.application;
 
 import kr.co.fastcampus.eatgo.domain.MenuItem;
 import kr.co.fastcampus.eatgo.domain.MenuItemRepository;
+import kr.co.pastcampus.eatgo.application.MenuItemService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -10,11 +11,8 @@ import org.mockito.MockitoAnnotations;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.is;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
-import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
@@ -29,20 +27,6 @@ class MenuItemServiceTests {
     public void setUp() {
         MockitoAnnotations.initMocks(this);
         menuItemService = new MenuItemService(menuItemRepository);
-    }
-
-    @Test
-    public void getMenuItems() {
-        List<MenuItem> mockMenuItems = new ArrayList<>();
-        mockMenuItems.add(MenuItem.builder().name("Kimchi").build());
-
-        given(menuItemRepository.findAllByRestaurantId(1004L)).willReturn(mockMenuItems);
-
-        List<MenuItem> menuItems = menuItemService.getMenuItems(1004L);
-
-        MenuItem menuItem = menuItems.get(0);
-
-        assertThat(menuItem.getName(), is("Kimchi"));
     }
 
     @Test

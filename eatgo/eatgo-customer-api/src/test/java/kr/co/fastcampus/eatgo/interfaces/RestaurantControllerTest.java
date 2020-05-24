@@ -1,13 +1,16 @@
 package kr.co.fastcampus.eatgo.interfaces;
 
-import kr.co.fastcampus.eatgo.application.RestaurantService;
-import kr.co.fastcampus.eatgo.domain.*;
+import kr.co.fastcampus.eatgo.domain.MenuItem;
+import kr.co.fastcampus.eatgo.domain.Restaurant;
+import kr.co.fastcampus.eatgo.domain.RestaurantNotFoundException;
+import kr.co.fastcampus.eatgo.domain.Review;
+import kr.co.pastcampus.eatgo.application.RestaurantService;
+import kr.co.pastcampus.eatgo.interfaces.RestaurantController;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.boot.test.mock.mockito.SpyBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
@@ -56,13 +59,23 @@ class RestaurantControllerTest {
     @Test
     public void detailWithExisted() throws Exception {
         Restaurant restaurant = new Restaurant(1004L, "Bob zip", "Seoul");
+        MenuItem menuItem = MenuItem.builder().name("Kimchi").build();
+        restaurant.setMenuItem(Arrays.asList(menuItem));
+        Review review = Review.builder()
+                .name("JOKER")
+                .score(5)
+                .description("Great!")
+                .build();
+        restaurant.setReviews(Arrays.asList(review));
 
         given(restaurantService.getRestaurant(1004L)).willReturn(restaurant);
 
         mvc.perform(get("/restaurants/1004"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(containsString("\"id\":1004")))
-                .andExpect(content().string(containsString("\"name\":\"Bob zip\"")));
+                .andExpect(content().string(containsString("\"name\":\"Bob zip\"")))
+                .andExpect(content().string(containsString("Kimchi")))
+                .andExpect(content().string(containsString("Great!")));
 
     }
 

@@ -20,37 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed33ab0-1333-417d-90cd-4d63a5fbf1a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/EatgoCustomerApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/application/MenuItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/application/RestaurantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/application/ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/interfaces/MenuItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/interfaces/RestaurantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/interfaces/RestaurantErrorAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/interfaces/ReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/interfaces/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/EatgoCustomerApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/application/MenuItemServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/application/ReviewServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/MenuItemControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/ReviewControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/application/MenuItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/application/MenuItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/application/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/application/ReviewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/ReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/application/MenuItemServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/application/MenuItemServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/application/ReviewServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/application/ReviewServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/MenuItemControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/MenuItemControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/ReviewControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/ReviewControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-common/src/main/java/kr/co/fastcampus/eatgo/domain/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-common/src/main/java/kr/co/fastcampus/eatgo/domain/ReviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-admin-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/main/java/kr/co/pastcampus/eatgo/interfaces/RestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/application/MenuItemServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/MenuItemControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +115,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/eatgo/eatgo-common/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eatgo/eatgo-customer-api/src/test/java/kr/co/fastcampus/eatgo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-oop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -177,7 +154,20 @@
       <recent name="C:\Users\이준현\Documents\GitHub\fastcampus_all-in-one_java_web\eatgo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReviewServiceTests.getReviews">
+  <component name="RunManager" selected="Application.EatgoAdminApplication">
+    <configuration name="EatgoAdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.co.fastcampus.eatgo.EatgoAdminApplication" />
+      <module name="eatgo.eatgo-admin-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.co.fastcampus.eatgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MenuItemServiceTests.getMenuItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eatgo.eatgo-admin-api.test" />
       <useClassPathOnly />
@@ -250,24 +240,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test admin-api" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="eatgo.eatgo-admin-api.test" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.co.fastcampus.eatgo.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kr.co.fastcampus.eatgo" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="eatgo.eatgo-api.test" />
       <useClassPathOnly />
@@ -291,8 +263,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EatgoAdminApplication" />
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.Test admin-api" />
       <item itemvalue="JUnit.Test Customer api" />
       <item itemvalue="JUnit.MenuItemServiceTests.getMenuItems" />
       <item itemvalue="JUnit.ReviewControllerTests.list" />
@@ -300,11 +272,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EatgoAdminApplication" />
         <item itemvalue="JUnit.ReviewServiceTests.getReviews" />
         <item itemvalue="JUnit.ReviewControllerTests.list" />
         <item itemvalue="JUnit.MenuItemServiceTests.getMenuItems" />
         <item itemvalue="JUnit.Test Customer api" />
-        <item itemvalue="JUnit.Test admin-api" />
       </list>
     </recent_temporary>
   </component>
@@ -409,31 +381,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="745" y="142" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589546383561" />
-    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1590279057407">
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1590746506612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589714723285" />
-    <state x="686" y="211" key="FileChooserDialogImpl/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590279057407" />
-    <state width="1169" height="102" key="GridCell.Tab.0.bottom" timestamp="1590281833486">
+    <state x="686" y="211" key="FileChooserDialogImpl/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590746506612" />
+    <state width="1169" height="102" key="GridCell.Tab.0.bottom" timestamp="1590669814465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589633671462" />
-    <state width="1169" height="102" key="GridCell.Tab.0.bottom/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590281833486" />
-    <state width="1169" height="102" key="GridCell.Tab.0.center" timestamp="1590281833486">
+    <state width="1169" height="102" key="GridCell.Tab.0.bottom/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590669814465" />
+    <state width="1169" height="102" key="GridCell.Tab.0.center" timestamp="1590669814465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589633671462" />
-    <state width="1169" height="102" key="GridCell.Tab.0.center/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590281833486" />
-    <state width="1169" height="102" key="GridCell.Tab.0.left" timestamp="1590281833486">
+    <state width="1169" height="102" key="GridCell.Tab.0.center/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590669814465" />
+    <state width="1169" height="102" key="GridCell.Tab.0.left" timestamp="1590669814465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589633671462" />
-    <state width="1169" height="102" key="GridCell.Tab.0.left/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590281833486" />
-    <state width="1169" height="102" key="GridCell.Tab.0.right" timestamp="1590281833486">
+    <state width="1169" height="102" key="GridCell.Tab.0.left/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590669814465" />
+    <state width="1169" height="102" key="GridCell.Tab.0.right" timestamp="1590669814465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589633671462" />
-    <state width="1169" height="102" key="GridCell.Tab.0.right/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590281833486" />
+    <state width="1169" height="102" key="GridCell.Tab.0.right/1920.-114.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1590669814465" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1589000884428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

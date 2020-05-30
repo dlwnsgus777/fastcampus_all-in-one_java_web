@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:/data/eatgo
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
